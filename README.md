@@ -1,5 +1,5 @@
 # view-demo
-Example for creating a display using View, ViewPort, BitMap and RastPort
+Example of creating a display using View, ViewPort, BitMap and RastPort
 
 ## description
 + open graphics and intuition library
