@@ -1,6 +1,13 @@
 # view-demo
 Example of creating a display using View, ViewPort, BitMap and RastPort
 
+## source code
+Assembly version: view-demo.asm
+```vasmm68k_mot -kick1hunks -Fhunkexe -o view-demo -nosym view-demo.asm```
+
+C version: view-demo.c
+```vc +kick13 view-demo.c -o view.demo```
+
 ## description
 + open graphics and intuition library
 + allocate memory for a bitmap (320 x 256 / 5 bitplanes)
