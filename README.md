@@ -2,12 +2,12 @@
 Example of creating a display using View, ViewPort, BitMap and RastPort
 
 ## source code
-Assembly version: view-demo.asm
+Assembly version (view-demo.asm) can be compiled with vasm:
 ```shell
 vasmm68k_mot -kick1hunks -Fhunkexe -o view-demo -nosym view-demo.asm
 ```
 
-C version: view-demo.c
+C version (view-demo.c) can be compiled with vbcc
 ```shell
 vc +kick13 view-demo.c -o view.demo
 ```
